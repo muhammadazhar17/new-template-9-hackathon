@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from "./Hero"
 import ChefGrid from "./ChefGrid"
-import chef1 from "../assets/bakery1.png";
-import chef2 from "../assets/bakery2.png";
-import chef3 from "../assets/bakery3.png";
-import chef4 from "../assets/bakery4.png";
+// import chef1 from "../assets/bakery1.png";
+// import chef2 from "../assets/bakery2.png";
+// import chef3 from "../assets/bakery3.png";
+// import chef4 from "../assets/bakery4.png";
 import Image from "next/image"
 
 const OurChefs = () => {
@@ -24,10 +24,10 @@ const OurChefs = () => {
         </h1>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-[20px] mt-[50px]">
-          <Image src={bakery1} alt="bakery image" className="w-[200px] md:w-[305px] md:h-[280px] cursor-pointer"/>
+{/*           <Image src={bakery1} alt="bakery image" className="w-[200px] md:w-[305px] md:h-[280px] cursor-pointer"/>
           <Image src={bakery2} alt="bakery image" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
           <Image src={bakery3} alt="bakery image" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
-          <Image src={bakery4} alt="bakery image" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
+          <Image src={bakery4} alt="bakery image" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" /> */}
         </div>
       </section>
     </div>
