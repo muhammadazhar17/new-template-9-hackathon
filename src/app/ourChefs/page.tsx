@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from "./Hero"
 import ChefGrid from "./ChefGrid"
-import chef1 from "../assets/bakery1.png";
-import chef2 from "../assets/bakery2.png";
-import chef3 from "../assets/bakery3.png";
-import chef4 from "../assets/bakery4.png";
+// import chef1 from "../assets/bakery1.png";
+// import chef2 from "../assets/bakery2.png";
+// import chef3 from "../assets/bakery3.png";
+// import chef4 from "../assets/bakery4.png";
 import Image from "next/image"
 
 const OurChefs = () => {
